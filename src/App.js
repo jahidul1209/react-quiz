@@ -1,8 +1,17 @@
+import Layout from './components/Layout';
+import Signup from './pages/Signup';
+import Home from './pages/Home';
+import './styles/App.css'
+import Signin from './pages/Signin';
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Word </h1>
-    </div>
+      <Layout>
+        <Home/>
+        <Signup/>
+        <Signin/>
+      </Layout>
+      
   );
 }
 
